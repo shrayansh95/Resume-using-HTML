@@ -44,6 +44,24 @@ body {
     border-radius: 2px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(171,181,214);
+}
+
+th, td {
+    padding: 10px;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+}
+
 #skills h2 {
     padding: 10px;
     background-color: rgb(171,181,214);
@@ -60,13 +78,4 @@ body {
     padding: 10px;
     background-color: rgb(171,181,214);
     border-radius: 2px;
-}
-
-table {
-    width: 100%;
-}
-
-table, th, td {
-    text-align: center;
-    border: 1px solid black;
 }
