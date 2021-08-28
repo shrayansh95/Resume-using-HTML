@@ -1,0 +1,72 @@
+html {
+    padding: 20px;
+}
+
+body {
+    padding: 20px;
+    border: 2px solid rgb(69,90,163);
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(171,181,214);
+}
+
+#first-name {
+    font-weight: 700;
+}
+
+#last-name {
+    font-weight: 500;
+}
+
+.details h2 {
+    font-size: 15px;
+    text-align: right;
+}
+
+.fas, .fab {
+    color: rgb(69,90,163);
+}
+
+#about h2 {
+    padding: 10px;
+    background-color: rgb(171,181,214);
+    border-radius: 2px;
+}
+
+#education h2 {
+    padding: 10px;
+    background-color: rgb(171,181,214);
+    border-radius: 2px;
+}
+
+#skills h2 {
+    padding: 10px;
+    background-color: rgb(171,181,214);
+    border-radius: 2px;
+}
+
+#projects h2 {
+    padding: 10px;
+    background-color: rgb(171,181,214);
+    border-radius: 2px;
+}
+
+#accomplishments h2 {
+    padding: 10px;
+    background-color: rgb(171,181,214);
+    border-radius: 2px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+}

@@ -6,18 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shrayansh's Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <header>
-        <img src="./assets/img/shrayansh.png" alt="Resume img" width="200" height="200">
-        <h1>Shrayansh Baunthiyal</h1>
-        <p>A third year Computer Science Undergrad student passionate about problem solving and creating web apps.</p>
-    </header>
-    <hr>
-    <div>
-        <h2>Education</h2>
-        <table border="1">
+    <div id="header">
+        <div>
+            <h1 id="first-name">Shrayansh</h1>
+            <h1 id="last-name">Baunthiyal</h1>
+        </div>
+        <div class="details">
+            <h2>mailshrayansh95@gmail.com <a href="mailto:mailshrayansh95@gmail.com"><i class="fas fa-envelope"></i></a>
+            </h2>
+            <h2>+91 6290785245 <a href="tel:+916290785245"><i class="fas fa-phone"></i></a></h2>
+            <h2>linkedin/shrayansh-baunthiyal <a href="https://www.linkedin.com/in/shrayansh-baunthiyal-0bb2821a7/"
+                    target="_blank"><i class="fab fa-linkedin"></i></a></h2>
+            <h2>github/shrayansh95 <a href="https://github.com/shrayansh95" target="_blank"><i
+                        class="fab fa-github"></i></a></h2>
+        </div>
+    </div>
+    <div id="about">
+        <h2><i class="fas fa-user"></i> About</h2>
+        <p>A third year Computer Science Undergrad student passionate about problem solving and creating web apps.
+        </p>
+    </div>
+    <div id="education">
+        <h2><i class="fas fa-user-graduate"></i> Education</h2>
+        <table>
             <thead>
                 <tr>
                     <th>Name of School</th>
@@ -29,7 +50,7 @@
                 <tr>
                     <td>MCKV Institute Of Engineering</td>
                     <td>2019-2023</td>
-                    <td>9.58 upto 3rd Semester</td>
+                    <td>9.65 upto 4rth Semester</td>
                 </tr>
                 <tr>
                     <td>Central Modern School</td>
@@ -44,20 +65,20 @@
             </tbody>
         </table>
     </div>
-    <div>
-        <h2>Skills</h2>
+    <div id="skills">
+        <h2><i class="fas fa-wrench"></i> Skills</h2>
         <ul>
             <li>C</li>
             <li>C++</li>
             <li>Java</li>
             <li>Python</li>
-            <li>Html</li>
+            <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
         </ul>
     </div>
-    <div>
-        <h2>Projects</h2>
+    <div id="projects">
+        <h2><i class="fas fa-project-diagram"></i> Projects</h2>
         <ul>
             <li>
                 <h3>A Resume made only using HTML</h3>
@@ -70,23 +91,13 @@
             </li>
         </ul>
     </div>
-    <div>
-        <h2>Accomplishments</h2>
+    <div id="accomplishments">
+        <h2><i class="fas fa-trophy"></i> Accomplishments</h2>
         <ul>
             <li>3✨ coder at Codechef</li>
             <li>Solved 70+ problems on Leetcode</li>
         </ul>
     </div>
-    <hr>
-    <footer>
-        <h2>Links</h2>
-        <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Linkedln</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Github</a></li>
-        </ul>
-    </footer>
 </body>
 
 </html>
